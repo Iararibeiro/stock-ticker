@@ -1,5 +1,3 @@
-# stock-ticker
-Simple server to upload file and search it
 # Stock Ticker
 
 This repository contains a simple server where you can upload a file and search for an specific stock.
@@ -36,6 +34,6 @@ A collection with examples of Postman requests can be found [here](https://githu
 
 Iara Ribeiro - 2020
 
-## License / Licença
+## License
 
 This project is licensed under GPL-3.0 License - see the [LICENSE.md](LICENSE.md) file for details
