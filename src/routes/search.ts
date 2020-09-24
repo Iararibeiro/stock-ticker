@@ -4,4 +4,4 @@ import * as searchController from '../controllers/search';
 export const router = express.Router();
 
 /** Search for an specific file */
-router.get('/:ticker', searchController.searchData);
+router.get('/:ticker/:file', searchController.searchData);

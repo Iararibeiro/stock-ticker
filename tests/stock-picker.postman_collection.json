@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "00999736-dcdf-40da-a805-a6da319721f2",
+		"name": "stock-picker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test upload",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/iararibeiro/Documents/coding/stock-challenge/data/dow_jones_index/dow_jones_index.data"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/file/upload",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"file",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search for stock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:4000/search/AA/dow_jones_index.data",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"search",
+						"AA",
+						"dow_jones_index.data"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
